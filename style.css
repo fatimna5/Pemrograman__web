@@ -1,0 +1,304 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(135deg, #111827, #131581);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+header ul li a:hover {
+    background: white;
+    color: #1f3c88;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+main h5 {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #1f3c88;
+    border-radius: 8px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+main ol {
+    background: white;
+    padding: 25px 45px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+main ol li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+main ol li:last-child {
+    border-bottom: none;
+}
+
+
+main p {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    header ul li a {
+        display: block;
+    }
+
+    main {
+        margin: 25px auto;
+        padding: 0 15px;
+    }
+
+    main h5 {
+        font-size: 20px;
+    }
+
+    main ol {
+        padding: 20px 35px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+header ul {
+    list-style: none;
+
+    display: flex;
+    gap: 25px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color: #1e3a8a;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+main ol {
+    background: white;
+    padding: 25px 45px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+main ol li {
+    margin-bottom: 8px;
+}
+
+main p {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    background: #1e3a8a;
+    color: white;
+    padding: 25px 40px;
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    main {
+        margin-top: 25px;
+    }
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    margin-bottom: 25px;
+    color: #1e3a8a;
+}
+
+.artikel-container {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.artikel-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
